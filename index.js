@@ -1,17 +1,12 @@
-import React from 'react';
-import ReactDOM from "react-dom/client";
 
-import 'aos/dist/aos.css'; 
-import reportWebVitals from './reportWebVitals';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ReactDOM from "react-dom/client";
+//import './index.css';
 import App from './App';
 
 
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
- 
-  reportWebVitals();
-  
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
